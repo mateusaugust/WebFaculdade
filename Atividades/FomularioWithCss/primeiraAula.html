@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <title>Aula-p1(Formulário de Cadastro)</title>
+    </head>
+
+    <body>
+
+        <div id="conteudoGeral">
+
+            <h1 id="nomeContato">Cadastro</h1>
+
+            <!--
+            GET:Quando manda linha de dados ele deixa a mostra
+            POST:Esconde o que esta sendo enviado no formulário
+            -->
+
+            <form action="cadastrar.php" method="post"> 
+                <!--FORM indica que tudo o que vier aqui dentro faz parte de um formulário-->
+                <!--BR serve para quebra de linha-->
+                <!--INPUT cria um campo de entrada unica-->
+                <!--IMG para puxar uma imagem e SRC ="" seria o caminho da imagem-->
+                <!--ACTION serve para executar uma ação-->
+                <!--NAME serve para nomear com um variavel-->
+
+                
+                <div id="parte1">
+                    <div class="esquerda">
+
+                        <table>
+                            <tr>
+                                <td>Primeiro Nome:</td>
+                                <td><input type="text" name="primeiroNome"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Sobrenome:</td>
+                                <td><input type="text" name="sobrenome"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Empresa:</td>
+                                <td><input type="text" name="empresa"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Titulação:</td>
+                                <td><input type="text" name="tit"></td>
+                            </tr>
+                        </table>
+                       
+                        <br>
+                        
+                        
+                     </div> 
+                     
+                    <div class="direita">
+                        <img src="FotoPerfilPNG.png" name="foto">
+                        <br><br>
+                        <input type="file">
+                    </div>
+                </div>
+
+                <div class="gamb">&nbsp;</div>
+
+
+
+
+                <div id="parte2">
+
+                    <div id="telefone" class="esquerda">
+                        <fieldset>
+                            <legend>Números de Telefone</legend>
+
+                            <table>
+                                <tr>
+                                  <td>Casa:</td>  
+                                  <td><input type="text" name="casaTel"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Empresa:</td>
+                                    <td><input type="text" name="empresaTel"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Celular:</td>
+                                    <td><input type="text" name="celularTel"></td>
+                                </tr>
+
+                            </table>
+
+                        </fieldset>
+                    </div>
+
+                    <div id="internet" class="direita">
+                        <fieldset>
+                            <legend>Internet</legend>
+                        
+                            <table>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="text" name="email"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Web Page:</td>
+                                    <td><input type="text" name="webPage"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Whatsapp:</td>
+                                    <td><input type="text" name="wpp"></td>
+                                </tr>
+
+                            </table>
+                
+                        </fieldset>
+                    </div>
+                   
+                </div>
+
+                
+
+                    <!--O elemento HTML <fieldset> é usado para agrupar elementos, 
+                        assim como labels ( <label> ), dentro de um formulário web-->
+
+                    
+                <div id="parte3">
+                    <fieldset>
+                        <!--TEXTAREA ser para criar campos para inserir texto-->
+                        
+                        <legend>Endereços</legend>
+    
+                        <!--cols seriam para quantos caracteres cabem no textarea e rows seria a quantia de linhas-->
+                        <div id="empresa" class="esquerda">
+                            Empresa:<br><textarea name="enderecoEmpresa" cols="20" rows="3"></textarea><br>
+                            <input type="radio" name="corresp" value="correspEmpresa">Correspondência<br>
+                        </div>
+                        
+                        <div id="casa" class="direita">
+                            Casa:<br><textarea name="enderecoEmpresa" cols="20" rows="3"></textarea><br>
+                            <input type="radio" name="corresp" value="correspCasa">Correspondência<br>
+                        </div>
+                        
+    
+                        <!--Deixar os radio buttons com o mesmo name evita que marque os dois e o value
+                        serve para arrumar uma valor na variavel quando selecionar um e assim
+                        diferenciar-->
+                    </fieldset>
+                </div>
+                
+                <div id="parte4">
+                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Limpar Tudo">
+                </div>
+                
+            </form>
+
+        </div>
+    </body>
+</html>
