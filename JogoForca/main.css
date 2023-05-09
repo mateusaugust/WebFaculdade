@@ -1,0 +1,109 @@
+
+body{
+    background-color:#343838;
+}
+
+#divOculto{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#divForca{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#divEnvio{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); text-align: center;
+}
+
+#divAddPalavra{
+    position: absolute;
+    top: 93%;
+}
+
+#divErro{
+    
+    height: 10vw;
+    width: 20vw;
+
+    position: absolute;
+    left: 79.3%;
+    top: 76%;
+    border: 0.1vw solid black;
+}
+
+#btnGerar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2.5vw;
+    border-radius: 10px;
+    background-color: #00B4CC;
+    border-color: #00B4CC ;
+}
+
+#btnAddPalavra{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2.5vw;
+    border-radius: 10px;
+    background-color: #00B4CC;
+    border-color: #00B4CC ;
+}
+
+#btnEnvioLetra{
+    background-color: #808080;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2vw;
+    border-color: #808080; 
+    border-radius: 10px;
+}
+
+#divOculto{
+    font-size: 25px;
+}
+
+#inpLetra{
+    background-color: #808080;
+    height: 1.5vw;
+    border-radius: 10px;
+    border-color: black;
+    width: 3.5vw;
+    text-align: center;
+}
+
+
+
+#divAddNovaPalavra{
+    display: none;
+    padding-top: 1.8%;
+    margin-top: 36%;
+    margin-left: 20%;
+    text-align: center;
+    width: 13vw;  
+    height: 4.5vw;
+    border: 0.1vw solid black;
+    border-radius: 10px;
+    
+}
+
+#btnAdicionar{
+    background-color: #808080;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.5vw;
+    
+}
+#inpNovaPalavra{
+    background-color: #808080;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
