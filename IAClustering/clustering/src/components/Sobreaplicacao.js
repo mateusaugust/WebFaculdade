@@ -62,13 +62,12 @@ function SobreAplicacao(){
           </li><br></br>
 
           <li>
-            Otimização de recursos: Ao identificar os clientes de alto valor, o banco pode 
-            concentrar seus recursos e esforços em atender e satisfazer esses clientes de 
-            maneira mais eficiente. Isso pode envolver oferecer serviços exclusivos, fornecer 
-            um suporte personalizado e garantir uma experiência excepcional para esses clientes
-            valiosos. Ao mesmo tempo, identificar clientes de baixo valor pode ajudar o banco a 
-            avaliar se vale a pena investir em retenção ou realocar recursos para clientes mais 
-            lucrativos.
+            Gestão de riscos: A segmentação de clientes por valor também é útil para 
+            a gestão de riscos. Clientes de alto valor podem ter um perfil de risco 
+            diferente e requerer medidas de segurança adicionais para proteger suas 
+            contas e transações. Além disso, a identificação de clientes de baixo valor 
+            pode ajudar o banco a identificar potenciais riscos de inadimplência ou comportamento 
+            fraudulento.
           </li><br></br>
 
           <li>
